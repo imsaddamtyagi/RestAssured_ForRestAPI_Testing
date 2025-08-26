@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-26T21:40:29 IST" name="Default suite" finished-at="2025-08-26T21:40:33 IST" duration-ms="4029">
+    <groups>
+    </groups>
+    <test started-at="2025-08-26T21:40:29 IST" name="Default test" finished-at="2025-08-26T21:40:33 IST" duration-ms="4029">
+      <class name="com.qa.restassured.ReqResApiTests">
+        <test-method signature="getUserListTest()[pri:0, instance:com.qa.restassured.ReqResApiTests@6069db50]" started-at="2025-08-26T21:40:29 IST" name="getUserListTest" finished-at="2025-08-26T21:40:33 IST" duration-ms="3950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserListTest -->
+      </class> <!-- com.qa.restassured.ReqResApiTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
