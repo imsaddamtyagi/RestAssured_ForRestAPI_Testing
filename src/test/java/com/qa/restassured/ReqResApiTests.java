@@ -16,7 +16,7 @@ public class ReqResApiTests {
     	RestAssured.baseURI="https://api.restful-api.dev";
     	
     	Response response = RestAssured
-    			           .given()
+    			           .given()                    // Eg: given().header("Content-Type", "application/json")
     			           .basePath("/objects")
     			           .when()
     			           .get();  	
