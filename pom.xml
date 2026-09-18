@@ -4,15 +4,14 @@
   <artifactId>RestAssuredBasics</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-
-  
+		
         <dependencies>
      
           <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
           <dependency>
                  <groupId>io.rest-assured</groupId>
                  <artifactId>rest-assured</artifactId>
-                 <version>6.0.0</version>
+                 <version>6.0.1</version>
                   <scope>test</scope>
           </dependency>
           
@@ -20,7 +19,7 @@
          <dependency>
                  <groupId>io.rest-assured</groupId>
                  <artifactId>json-path</artifactId>
-                 <version>6.0.0</version>
+                 <version>6.0.1</version>
                  <scope>test</scope>
           </dependency>
           
@@ -31,8 +30,21 @@
                   <version>1.1.1</version>
           </dependency>
 
+	 
+	       <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+	        <dependency>
+	            <groupId>org.seleniumhq.selenium</groupId>
+	            <artifactId>selenium-java</artifactId>
+	            <version>4.49.0</version>
+	        </dependency>
 
-       
+
+
+	        <dependency>
+	        	<groupId>Appium_Demo</groupId>
+	        	<artifactId>Appium_Demo</artifactId>
+	        	<version>0.0.1-SNAPSHOT</version>
+	        </dependency>
         </dependencies>
         
         
